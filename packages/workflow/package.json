@@ -17,6 +17,7 @@
     "clean": "rimraf dist .turbo",
     "dev": "pnpm watch",
     "typecheck": "tsc --noEmit",
+    "start": "n8n",
     "build": "tsc -p tsconfig.build.json",
     "format": "biome format --write .",
     "format:check": "biome ci .",
@@ -42,6 +43,7 @@
     "@types/xml2js": "catalog:"
   },
   "dependencies": {
+    "n8n": "^1.92.0"
     "@n8n/tournament": "1.0.6",
     "ast-types": "0.15.2",
     "axios": "catalog:",
