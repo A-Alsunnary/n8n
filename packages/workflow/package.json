@@ -43,7 +43,7 @@
     "@types/xml2js": "catalog:"
   },
   "dependencies": {
-    "n8n": "^1.92.0"
+    "n8n": "^1.92.0",
     "@n8n/tournament": "1.0.6",
     "ast-types": "0.15.2",
     "axios": "catalog:",
