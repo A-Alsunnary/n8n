@@ -10,6 +10,7 @@
     "bin": "n8n"
   },
   "scripts": {
+    "start": "n8n",
     "clean": "rimraf dist .turbo",
     "typecheck": "tsc --noEmit",
     "build": "tsc -p tsconfig.build.json && tsc-alias -p tsconfig.build.json && node scripts/build.mjs",
